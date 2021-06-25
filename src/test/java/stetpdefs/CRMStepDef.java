@@ -57,6 +57,7 @@ public class CRMStepDef extends TestBase{
 
 		@Then("Close browser")
 		public void close_browser() {
+			System.out.println("Close the browser");
 		driver.close();
 		}
 	
